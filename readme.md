@@ -49,13 +49,14 @@ A DUTCH bot build using [rasa-nlu](http://rasa.ai).
     `python -m rasa_nlu.server -c config_mitie.json --server_model_dirs=./model_YYYYMMDD-HHMMSS`
 
 9. To setup the knowledge base for the DUTCH,
-    1. Create sqlite db using these files "creation_script.sql" and "insert.sql". 
+    1. Create sqlite db using these files `creation_script.sql` and `insert.sql`. 
         Use this link for sqlite DB studio http://sqlitebrowser.org/
     2. Export the created sqlite db and keep that file inside "brain" folder
     3. Use "config.py" file to define all required configurations
 
 10. train dutch data
-    python -m rasa_nlu.train -d "/brain/data/dutch-data.json" -c "/brain/config_mitie.yml" --project "dutch" -o "/models/nlu"
+
+    `python -m rasa_nlu.train -d "/brain/data/dutch-data.json" -c "/brain/config_mitie.yml" --project "dutch" -o "/models/nlu"`
 
 11. run rasa_nlu server
     python -m rasa_nlu.server --path "/models/nlu" -c "/brain/config_mitie.yml"
@@ -63,7 +64,8 @@ A DUTCH bot build using [rasa-nlu](http://rasa.ai).
         http://localhost:5000/parse?q=who are you&project=dutch&model=model_20180706-222616
 
 12. Done! :). Now you are ready to get converation with your dutch
-    python boot.py
+
+    `python boot.py`
 
 Cheers!!
 
