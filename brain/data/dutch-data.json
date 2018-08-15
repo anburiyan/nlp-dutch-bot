@@ -1,0 +1,347 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "text": "who are you?",
+                "intent": "intro",
+                "entities": []
+            },
+            {
+                "text": "what do you do?",
+                "intent": "intro",
+                "entities": []
+            },
+            {
+                "text": "what can you do for me?",
+                "intent": "intro",
+                "entities": []
+            },
+            {
+                "text": "hey",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hey",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "howdy",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hey there",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hello",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hi",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "yes",
+                "intent": "affirm",
+                "entities": []
+            },
+            {
+                "text": "yep",
+                "intent": "affirm",
+                "entities": []
+            },
+            {
+                "text": "yeah",
+                "intent": "affirm",
+                "entities": []
+            },
+            {
+                "text": "bye",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "goodbye",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "good bye",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "stop",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "end",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "indeed",
+                "intent": "affirm",
+                "entities": []
+            },
+            {
+                "text": "that's right",
+                "intent": "affirm",
+                "entities": []
+            },
+            {
+                "text": "ok",
+                "intent": "affirm",
+                "entities": []
+            },
+            {
+                "text": "great",
+                "intent": "affirm",
+                "entities": []
+            },
+            {
+                "text": "who i am",
+                "intent": "self",
+                "entities": [
+                    {
+                    "start": 0,
+                    "end": 8,
+                    "value": "",
+                    "entity": "humans"
+                    }
+                ]
+            },
+            {
+                "text": "tell about myself",
+                "intent": "self",
+                "entities": [
+                    {
+                    "start": 11,
+                    "end": 17,
+                    "value": "myself",
+                    "entity": "humans"
+                    }
+                ]
+            },
+            {
+                "text": "who are you",
+                "intent": "self",
+                "entities": [
+                    {
+                    "start": 0,
+                    "end": 11,
+                    "value": "you",
+                    "entity": "brains"
+                    }
+                ]
+            },
+            {
+                "text": "tell about yourself",
+                "intent": "self",
+                "entities": [
+                    {
+                    "start": 11,
+                    "end": 19,
+                    "value": "yourself",
+                    "entity": "brains"
+                    }
+                ]
+            },
+            {
+                "text": "who is anbu",
+                "intent": "information_about",
+                "entities": [
+                    {
+                    "start": 7,
+                    "end": 11,
+                    "value": "anbu",
+                    "entity": "people"
+                    }
+                ]
+            },
+            {
+                "text": "who is gopal",
+                "intent": "information_about",
+                "entities": [
+                    {
+                    "start": 7,
+                    "end": 12,
+                    "value": "mani",
+                    "entity": "people"
+                    }
+                ]
+            },
+            {
+                "text": "who is mani",
+                "intent": "information_about",
+                "entities": [
+                    {
+                    "start": 7,
+                    "end": 11,
+                    "value": "mani",
+                    "entity": "people"
+                    }
+                ]
+            },
+            {
+                "text": "tell about anbu",
+                "intent": "information_about",
+                "entities": [
+                    {
+                    "start": 11,
+                    "end": 15,
+                    "value": "anbu",
+                    "entity": "people"
+                    }
+                ]
+            },
+            {
+                "text": "tell about anbu relatives",
+                "intent": "information_about",
+                "entities": [
+                    {
+                    "start": 11,
+                    "end": 15,
+                    "value": "anbu",
+                    "entity": "people"
+                    },
+                    {
+                        "start": 16,
+                        "end": 25,
+                        "value": "",
+                        "entity": "relationship"
+                    }
+                ]                
+            },
+            {
+                "text": "can you tell me anbu father",
+                "intent": "information_about",
+                "entities": [
+                    {
+                    "start": 16,
+                    "end": 20,
+                    "value": "anbu",
+                    "entity": "people"
+                    },
+                    {
+                        "start": 21,
+                        "end": 27,
+                        "value": "father",
+                        "entity": "relationship"
+                    }
+                ]                
+            },
+            {
+                "text": "can you tell me anbu father name",
+                "intent": "information_about",
+                "entities": [
+                    {
+                    "start": 16,
+                    "end": 20,
+                    "value": "anbu",
+                    "entity": "people"
+                    },
+                    {
+                        "start": 21,
+                        "end": 27,
+                        "value": "father",
+                        "entity": "relationship"
+                    },
+                    {
+                        "start": 28,
+                        "end": 32,
+                        "value": "name",
+                        "entity": "relationship"
+                    }
+                    
+                ]                
+            },
+            {
+                "text": "can you tell me anbu father date of birth",
+                "intent": "information_about",
+                "entities": [
+                    {
+                    "start": 16,
+                    "end": 20,
+                    "value": "anbu",
+                    "entity": "people"
+                    },
+                    {
+                        "start": 21,
+                        "end": 27,
+                        "value": "father",
+                        "entity": "relationship"
+                    },
+                    {
+                        "start": 28,
+                        "end": 41,
+                        "value": "dob",
+                        "entity": "relationship"
+                    }
+                    
+                ]                
+            },
+            {
+                "text": "can you tell me anbu elder brother",
+                "intent": "information_about",
+                "entities": [
+                    {
+                    "start": 16,
+                    "end": 20,
+                    "value": "anbu",
+                    "entity": "people"
+                    },
+                    {
+                        "start": 21,
+                        "end": 34,
+                        "value": "elder brother",
+                        "entity": "relationship"
+                    }
+                ]                
+            },
+            {
+                "text": "can you switch on my computer",
+                "intent": "on",
+                "entities": [
+                    {
+                    "start": 8,
+                    "end": 17,
+                    "value": "switch on",
+                    "entity": ""
+                    },
+                    {
+                        "start": 18,
+                        "end": 29,
+                        "value": "my computer",
+                        "entity": "electronic_devices"
+                    }
+                ]                
+            },
+            {
+                "text": "can you switch off my computer",
+                "intent": "off",
+                "entities": [
+                    {
+                    "start": 8,
+                    "end": 18,
+                    "value": "switch off",
+                    "entity": ""
+                    },
+                    {
+                        "start": 19,
+                        "end": 30,
+                        "value": "my computer",
+                        "entity": "electronic_devices"
+                    }
+                ]                
+            }       
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 506-248-704
+INFO:werkzeug: * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2018 17:14:03] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2018 17:14:03] "[37mGET /static/css/chat_interface.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2018 17:14:03] "[37mGET /static/css/temporary.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2018 17:14:03] "[37mGET /static/js/bind.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2018 17:14:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:web.talk:Calling talk to dutch
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2018 17:14:09] "[37mPOST /talk_todutch HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'F:\\research\\experiment\\nlp\\dutch\\boot.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 506-248-704
+INFO:werkzeug: * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'F:\\research\\experiment\\nlp\\dutch\\boot.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 506-248-704
+INFO:werkzeug: * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+INFO:web.talk:Calling talk to dutch
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2018 17:16:05] "[37mPOST /talk_todutch HTTP/1.1[0m" 200 -
+INFO:web.talk:Calling talk to dutch
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2018 17:16:19] "[37mPOST /talk_todutch HTTP/1.1[0m" 200 -
+INFO:web.talk:Calling talk to dutch
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2018 17:16:34] "[37mPOST /talk_todutch HTTP/1.1[0m" 200 -
+INFO:web.talk:Calling talk to dutch
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2018 17:17:06] "[37mPOST /talk_todutch HTTP/1.1[0m" 200 -
+INFO:web.talk:Calling talk to dutch
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2018 17:17:20] "[37mPOST /talk_todutch HTTP/1.1[0m" 200 -
+INFO:web.talk:Calling talk to dutch
+INFO:werkzeug:127.0.0.1 - - [15/Aug/2018 17:17:25] "[37mPOST /talk_todutch HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'F:\\research\\experiment\\nlp\\dutch\\boot.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:__main__:Started http server on port 8000
