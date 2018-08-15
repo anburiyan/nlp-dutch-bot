@@ -41,7 +41,7 @@ function showUserMessage(msg){
         $('#msg_input').val('');
 }
 function sayToBot(text){
-    document.getElementById("msg_input").placeholder = "Chat with you dutch..."
+    document.getElementById("msg_input").placeholder = "Chat with your dutch..."
     $.post("/talk_todutch",
             {
                 //csrfmiddlewaretoken:csrf,
