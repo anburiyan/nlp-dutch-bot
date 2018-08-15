@@ -39,7 +39,7 @@
 
     `python -m rasa_nlu.train -c config_mitie.json`
 
-    This step will talk times based on your machine configuration
+    This step will take times based on your machine configuration
 
 7. Once the training is done you will have a `models` folder will be created with a timestamp and given name
 
