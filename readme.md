@@ -30,7 +30,7 @@ A DUTCH bot build using [rasa-nlu](http://rasa.ai).
     config - to train the model using either mitie or spacy
     training_data - contains data about what the dutch can able to do for you
 
-6. To train your model you can use either 'spacy' or 'mitie' algorithm. For my application I am using mitie.
+6. To train your model you can use either ##'spacy' or ##'mitie' algorithm. For my application I am using mitie.
 
     1. If you are using `mitie` you should download a `.dat` file from
         https://github.com/mit-nlp/MITIE/releases/download/v0.4/MITIE-models-v0.2.tar.bz2
@@ -42,7 +42,7 @@ A DUTCH bot build using [rasa-nlu](http://rasa.ai).
 
     This step will talk times based on your machine configuration
 
-7. Once the training is done you will have a "models" folder will be created with a timestamp and given name
+7. Once the training is done you will have a ##"models" folder will be created with a timestamp and given name
 
 8. Now you are ready to configure this model with rasa-nlu
 
@@ -69,7 +69,7 @@ A DUTCH bot build using [rasa-nlu](http://rasa.ai).
 
 Cheers!!
 
-Future work:
+#Future work:
 - The electronic device handling part is in-progress. It will connect with a raspi hardware and will do based on sending command to the hardware like switch ON/OFF computer, lights, TV, etc.,
 
 Please keep watch...
