@@ -1,7 +1,7 @@
 # DUTCH bot
 A DUTCH bot build using [rasa-nlu](http://rasa.ai).
 
-[[https://github.com/anburiyan/nlp-dutch-bot/blob/master/images/result.png|result]]
+[[https://github.com/anburiyan/nlp-dutch-bot/blob/master/result.png|result]]
 
 ## Setup
 1. Create virtualenv
