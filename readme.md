@@ -64,7 +64,7 @@
     Test the rasa_nlu server
         http://localhost:5000/parse?q=who are you&project=dutch&model=model_20180706-222616
 
-12. Done! :). Now you are ready to get converation with your dutch
+12. Done! :). Now you are ready to get conversation with your dutch
 
     `python boot.py`
 
